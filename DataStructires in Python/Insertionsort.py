@@ -5,4 +5,5 @@ def insertionsort(l):
             (l[pos-1],l[pos]) = (l[pos],l[pos-1])
             pos = pos - 1
     return l
-print(insertionsort([9,6,7,5,3,8]))
+l = list(range(200,0,-1))
+print(insertionsort(l))
