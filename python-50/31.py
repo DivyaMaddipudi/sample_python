@@ -1,2 +1,4 @@
-x = "Programming Language"
-print(x[::-1])
+def rev():
+    x = "Programming Language"
+    print(x[::-1])
+rev()
